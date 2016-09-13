@@ -11,7 +11,7 @@ public class Spreadsheet {
 	}
 	
 	public void processCells(){
-		1
+		
 	}
 	
 	public void evaluate(){
@@ -68,7 +68,8 @@ public class Spreadsheet {
 	public static void main(String[] args){
 		Spreadsheet sheet = new Spreadsheet();
 		sheet.readInput();
-		
+		sheet.evaluate();
+		sheet.printResults();
 	}
 }
 
